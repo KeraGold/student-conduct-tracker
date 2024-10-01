@@ -72,3 +72,4 @@ def delete_student_by_id(student_id):
         print(f'Error deleting student: {e}')
         db.session.rollback()
         return False
+

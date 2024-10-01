@@ -6,3 +6,5 @@ course_student = db.Table(
     db.Column('course_id', db.Integer, db.ForeignKey('course.course_id'), primary_key = True),
     db.Column('student_id', db.Integer, db.ForeignKey('student.student_id'), primary_key = True)
 )
+
+

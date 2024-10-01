@@ -73,9 +73,4 @@ def to_dict(self):
             'course_name': self.course_name,
             'course_description': self.course_description
         }
-
-
-
-
-
-
+        

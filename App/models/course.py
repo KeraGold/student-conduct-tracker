@@ -50,3 +50,5 @@ class Course(db.Model):
             "courseDescription": self.course_description,
             "studentsEnrolled": [student.student.toJSON() for student in self.getStudents()]   
         }
+
+        

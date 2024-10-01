@@ -54,3 +54,5 @@ class Student(db.Model):
             'reviews': [reviews.toJSON() for review in self.reviews],
             'courses': [course.toJSON() for course in self.courses]
         }
+
+

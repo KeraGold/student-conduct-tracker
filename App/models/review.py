@@ -52,3 +52,5 @@ class Review(db.Model):
             'type': self.type,
             'details': self.details
         }
+
+
